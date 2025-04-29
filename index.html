@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pixora - AI Photo Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="welcome">
+    <h1>Welcome to Pixora</h1>
+    <p>Experience AI Powered Photo Studio</p>
+  </div>
+
+  <div class="upload-section">
+    <input type="file" id="fileInput" accept="image/*">
+    <button onclick="removeBackground()">Remove Background</button>
+    <button onclick="changeClothes()">Change Clothes</button>
+    <button onclick="downloadImage()">Download Image</button>
+  </div>
+
+  <div class="output">
+    <img id="outputImage" src="" alt="Result will appear here" />
+  </div>
+
+  <div class="slideshow">
+    <img src="slide1.jpg" alt="Slide 1">
+    <img src="slide2.jpg" alt="Slide 2">
+    <img src="slide3.jpg" alt="Slide 3">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
